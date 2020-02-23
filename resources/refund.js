@@ -11,7 +11,7 @@ module.exports = {
   create: {
     method: "post",
     route: route,
-    params: ["transaction*", "amount*"] // ...
+    params: ["transaction*"] // ...
   },
 
   /*
